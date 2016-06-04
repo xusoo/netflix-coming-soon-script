@@ -93,7 +93,14 @@ define(['exports'], function (exports) {
         if (titles.length > 0) {
             var codeToCopy = JSON.stringify(titles);
             codeToCopy = btoa(unescape(encodeURIComponent(codeToCopy))); //Base64 encode
-            NetflixScriptHelper.showDialog('templates/provider-generated-code.html', {numberOfTitles: titles.length, codeToCopy: codeToCopy});
+            NetflixScriptHelper.showDialog('templates/provider-generated-code.html', {numberOfTitles: titles.length, codeToCopy: codeToCopy}, function () {
+                var inputGroup = $(this).find('.input-group');
+                /* Remove the copy button if it's not supported */
+                if (!document.queryCommandSupported || !document.queryCommandSupported("copy")) {
+                    inputGroup.removeClass('input-group');
+                    inputGroup.find('.input-group-btn').remove();
+                }
+            });
         } else {
             alert('Ejecuta el script primero desde una de las webs compatibles (' + providers.map(function (provider) { return provider.name; }).join(', ') + ') y asegúrate de estar en la sección del buscador o donde aparezca la lista de títulos de Netflix.');
         }
