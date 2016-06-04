@@ -1,6 +1,8 @@
 # Guía de uso
 
-Para empezar a usar el script, arrastra y suelta este enlace ([Netflix Script](javascript:(function(){var%20script%20=%20document.createElement('script');%0Ascript.src%20=%20'https://raw.githubusercontent.com/xusoo/netflix-coming-soon-script/master/dist/index.min.js?'%20+%20Date.now();%0Adocument.querySelector('head').appendChild(script);%0A})();) en la barra de marcadores de tu navegador (o guárdalo manualmente, pero asegúrate de copiar el contenido del enlace completo, que empiece por "javascript:").
+Para empezar a usar el script, crea un marcador en tu navegador y como URL, copia y pega el contenido del [bookmarklet](https://raw.githubusercontent.com/xusoo/netflix-coming-soon-script/master/dist/bookmarklet.js).
+
+![](http://i.imgur.com/tWVjMmV.png)
 
 Una vez *instalado*, ve a uno de los siguientes buscadores de Netflix soportados:
 
