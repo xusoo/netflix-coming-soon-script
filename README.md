@@ -4,4 +4,4 @@ It's just a bookmarklet (unofficial, obviously) that checks if a Netflix title i
 
 ![](http://i.imgur.com/fyAYjYX.png)
 
-For more information, check the HOW-TO page (in spanish).
+For more information, check the [HOWTO](https://github.com/xusoo/netflix-coming-soon-script/blob/master/HOWTO.md) (in spanish).

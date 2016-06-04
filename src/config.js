@@ -4,7 +4,7 @@
     window.NetflixScriptConfig = {
         MODE: '@@mode',
         VERSION: '@@version',
-        BASE_URL: 'https://dl.dropboxusercontent.com/u/1066873/Scripts/Netflix/'
+        BASE_URL: 'https://raw.githubusercontent.com/xusoo/netflix-coming-soon-script/master/'
     };
 
 })();
