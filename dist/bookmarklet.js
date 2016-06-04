@@ -1,0 +1,1 @@
+javascript:(function(){var%20script%20=%20document.createElement('script');%0Ascript.src%20=%20'https://raw.githubusercontent.com/xusoo/netflix-coming-soon-script/master/dist/index.min.js?'%20+%20Date.now();%0Adocument.querySelector('head').appendChild(script);%0A})();
