@@ -85,7 +85,7 @@
                 var mask = document.createElement('div');
                 mask.id = 'script-mask';
                 mask.innerHTML = 'Cargando...';
-                mask.style = 'width: 100%; height: 100%; background-color: white; position: fixed; z-index: 9999999; opacity: 0.6; left: 0px; top: 0px; text-align: center; font-size: 40px; color: darkgray; padding-top: 10%;';
+                mask.setAttribute('style', 'width: 100%; height: 100%; background-color: white; position: fixed; z-index: 9999999; opacity: 0.6; left: 0px; top: 0px; text-align: center; font-size: 40px; color: darkgray; padding-top: 10%;');
                 document.querySelector('body').appendChild(mask);
             }
         },
