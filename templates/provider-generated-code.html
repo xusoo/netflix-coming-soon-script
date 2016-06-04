@@ -1,0 +1,28 @@
+<div class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content" style="height: auto;">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title">Listo, se han encontrado {{numberOfTitles}} títulos :)</h4>
+            </div>
+            <div class="modal-body" style="text-align: center; font-size: 16px;">
+				<p>
+					Ahora copia el siguiente código, ve a Netflix y vuelve a ejecutar el script.
+				</p>
+				<p>
+					<div class="input-group">
+						<input id="codeToCopy" autofocus="" class="form-control" type="text" value="{{codeToCopy}}" readonly></input>
+						<div class="input-group-btn">
+							<button class="btn btn-default" onclick="document.querySelector('#codeToCopy').select(); document.execCommand('copy'); document.querySelector('#codeToCopy').focus();">Copiar</button>
+						</div>
+					</div>
+				</p>
+            </div>
+            <div class="modal-footer">
+                <a href="https://www.netflix.com/" target="_blank" class="btn btn-primary">Ir a Netflix</a>
+            </div>
+        </div>
+    </div>
+</div>

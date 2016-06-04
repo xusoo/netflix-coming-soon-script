@@ -1,2 +1,7 @@
-# netflix-coming-soon-script
-Check coming soon titles to your country
+# Netflix Coming Soon Script
+
+It's just a bookmarklet (unofficial, obviously) that checks if a Netflix title is going to appear soon in your country or not. To do that you need to run the script first on a third-party Netflix search engine (supported currently: UnoGS, Flicksurfer, Flixlist, Moreflix) and then, on the Netflix page itself.
+
+![](http://i.imgur.com/fyAYjYX.png)
+
+For more information, check the HOW-TO page (in spanish).
