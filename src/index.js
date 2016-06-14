@@ -5,7 +5,7 @@
 
     /* Configure RequireJS for the module loading */
     NetflixScriptHelper.injectScript({
-        src: '//requirejs.org/docs/release/2.2.0/minified/require.js',
+        src: '//cdnjs.cloudflare.com/ajax/libs/require.js/2.2.0/require.min.js',
         id: 'requireJS',
         onload: function () {
 
@@ -24,7 +24,7 @@
                 paths: {
                     netflix_module: folder + '/netflix-module' + suffix,
                     providers_module: folder + '/providers-module' + suffix,
-                    jquery: '//code.jquery.com/jquery-2.2.3.min',
+                    jquery: '//code.jquery.com/jquery-2.2.4.min',
                     bootstrap: '//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min',
                     text: '//cdnjs.cloudflare.com/ajax/libs/require-text/2.0.12/text.min'
                 },
